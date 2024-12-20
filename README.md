@@ -1,5 +1,5 @@
 
-# CodeAnt AI: Frontend Developer Hiring Assignment  
+# CodeAnt AI: Frontend Developer Intern Hiring Assignment  
 
 This repository contains solution for the **Frontend Developer Intern Hiring Assignment** for CodeAnt AI. The project involves implementing a functional frontend based on the provided Figma design.  
 
