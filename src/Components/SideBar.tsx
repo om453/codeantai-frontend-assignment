@@ -9,11 +9,13 @@ import {
 } from "@heroicons/react/24/outline";
 
 import {useEffect, useRef, useState} from "react";
+import { useNavigate } from "react-router-dom";
 
 const SideBar = () => {
     const [isSideBarVisible, setIsSideBarVisible] = useState(false)
     const [isMobile, setIsMobile] = useState(false)
     const isMobileRef = useRef(false);
+    const navigate = useNavigate()
 
 
 
@@ -120,7 +122,7 @@ const SideBar = () => {
                             className="flex items-center px-4 py-2 text-sm font-medium text-gray-700 rounded-lg hover:bg-gray-100"
                         >
                             <span className="flex-shrink-0"><ArrowRightStartOnRectangleIcon className={`w-5`}/></span>   
-                            <button className="ml-3">Logout</button>
+                            <button className="ml-3" onClick={() => navigate('/')}>Logout</button>
                         </a>
                     </div>
                 </div>
